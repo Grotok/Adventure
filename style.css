@@ -29,8 +29,14 @@ body {
     line-height: 1.5;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
-
+#eerie {
+    display: none;
+}
 
 .motherbox {
     background-image: url(./house.jpg);
