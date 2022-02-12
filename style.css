@@ -31,15 +31,11 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
-}
-
-#eerie {
-    display: none;
+    color: rgb(236, 236, 236);
 }
 
 .motherbox {
-    background-image: url(./house.jpg);
+    background-image: url(pics/GOPR0664.JPG);
     background-position: center;
     background-repeat:space;
     background-size: cover;
@@ -56,7 +52,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'New Rocker', cursive;
+    font-family: 'Amatic SC', cursive;
     color: rgb(11, 3, 12);
     text-shadow:3px 3px 7px rgb(36, 190, 22), -3px -3px 7px rgb(36, 190, 22);
     
@@ -65,9 +61,10 @@ a {
 }
 
 .enter {
-    color:  rgb(36, 190, 22, 0.9);
+    color: white; 
+    text-shadow:1px 1px 1px white;
     font-family: 'Noto Sans SC', sans-serif;
-    background-color: black;
+    background-color: transparent;
     border-radius: 5px;
     width: 5rem;
     height: 2.2rem;
@@ -80,6 +77,9 @@ a {
 .enter:hover {
     cursor: pointer;
     font-weight: bold;
+    font-size: 1.5em;
+    background-color: black;
+    border-radius: 2em;
 }
 
 .enter:active {
@@ -88,9 +88,12 @@ a {
 
 
 .story {
-    background-color:  rgb(36, 190, 22);
-    font-family: 'Noto Sans SC', sans-serif;
-    font-weight: bold;
+    background-color: transparent;
+    color: rgb(236, 236, 236);
+    /*text-shadow:3px 3px 7px rgb(36, 190, 22), -3px -3px 7px rgb(36, 190, 22);*/
+    
+    font-family: 'Amatic SC', cursive;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,15 +102,20 @@ a {
     margin-top: 5em;
     margin-left: 15em;
     margin-right: 15em;
-    border: .2em solid black;
+    margin-bottom: 0em;
+    /*border: .2em solid black;*/
     padding: 1em;
-    width: 30em;
+    width: 25em;
+}
+
+.story:hover {
+    background-color: black;
 }
 
 
 .mid {
     background-color: none;
-    
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,13 +123,13 @@ a {
     border-radius: 10%;
 }
 
-.choiceheader {
+/*.choiceheader {
     font-size: 1em;
     font-family: 'New Rocker', cursive;
     
     text-shadow:3px 3px 7px rgb(36, 190, 22), -3px -3px 7px rgb(36, 190, 22);
     
-}
+}*/
 
 .skull {
     width: 8em;
@@ -134,8 +142,8 @@ a {
 
 .choices {
     background-color: none;
-    font-family: 'Noto Sans SC', sans-serif;
-    font-weight: bold;
+    color: rgb(36, 190, 22);
+    font-family: 'Amatic SC', cursive;
     font-size: 1.5em;
     gap: .5em;
     display: flex;
@@ -144,22 +152,24 @@ a {
     justify-content: center;
     margin-left: 15em;
     margin-right: 15em;
-    width: 30em;
+    width: 25em;
+    margin-bottom: 3em;
 }
 
 .fate {
-    background-color:  rgb(36, 190, 22);
+    background-color: transparent;
+    color: white;
+    border-radius: 2em;
     text-align: center;
-    border-radius: 1em;
-    border: .2em solid black;
+    
     min-height: 2em;
-    width: 30em;
+    width: 25em;
     padding: .5em;
 }
 
 .fate:hover {
     cursor: pointer;
-    background-color:  rgb(89, 252, 74);
+    background-color: black;
 }
 
 
@@ -192,6 +202,6 @@ a {
   
   /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(36, 190, 22);
+    background: rgb(228, 220, 220, 0.4);
     border-radius: 20px;
 }
