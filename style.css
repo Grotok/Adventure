@@ -32,6 +32,8 @@ body {
 a {
     text-decoration: none;
     color: rgb(236, 236, 236);
+    font-size: 1.7rem;
+    font-weight: bold;
 }
 
 .motherbox {
@@ -54,21 +56,27 @@ a {
     justify-content: center;
     font-family: 'Amatic SC', cursive;
     color: rgb(11, 3, 12);
-    text-shadow:3px 3px 7px rgb(36, 190, 22), -3px -3px 7px rgb(36, 190, 22);
-    
+    /*text-shadow:3px 3px 7px rgb(36, 190, 22), -3px -3px 7px rgb(36, 190, 22);*/
+    text-shadow:3px 3px 7px rgb(236, 236, 236), -3px -3px 7px rgb(236, 236, 236);
     font-size: 5rem;
     margin-top: 2em;
 }
 
+.choiceheader {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .enter {
-    color: white; 
-    text-shadow:1px 1px 1px white;
-    font-family: 'Noto Sans SC', sans-serif;
+    color: rgb(236, 236, 236); 
+    
+    font-family: 'Amatic SC', cursive;
     background-color: transparent;
     border-radius: 5px;
     width: 5rem;
     height: 2.2rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: center;
     text-decoration: none;
     padding: .3em .3em;
@@ -77,9 +85,10 @@ a {
 .enter:hover {
     cursor: pointer;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.7em;
     background-color: black;
     border-radius: 2em;
+    box-shadow: 4px 4px 5px white;
 }
 
 .enter:active {
@@ -93,11 +102,12 @@ a {
     /*text-shadow:3px 3px 7px rgb(36, 190, 22), -3px -3px 7px rgb(36, 190, 22);*/
     
     font-family: 'Amatic SC', cursive;
-    
+    font-weight: bold;
+    line-height: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.7rem;
     border-radius: 2em;
     margin-top: 5em;
     margin-left: 15em;
@@ -105,11 +115,12 @@ a {
     margin-bottom: 0em;
     /*border: .2em solid black;*/
     padding: 1em;
-    width: 25em;
+    width: 20em;
 }
 
 .story:hover {
     background-color: black;
+    box-shadow: 4px 4px 5px white;
 }
 
 
@@ -170,6 +181,7 @@ a {
 .fate:hover {
     cursor: pointer;
     background-color: black;
+    box-shadow: 4px 4px 5px white;
 }
 
 
