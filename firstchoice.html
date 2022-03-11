@@ -14,45 +14,22 @@
     <title>Adventure</title>
 </head>
 <body>
-    <div>
-        <button class="hide" onclick="hideAll()">STORY</button>
-        <button class="hide" onclick="hideAlso()">CHOICES</button>
-    </div>
-    <div class="motherbox">
-        
-        <div id="hideall" class="story"> 
+    <div id = "box">
+        <div id="story">
             <p>It took a while but you made your way through the trees to the distant house. You now stand before a massive wooden door
                  decorated with an eerie skull. There’s a window to either side of you and a balcony on the second floor to your left.
                   Another small window in the bottom right corner of the house is wide open but you doubt you could fit through it.
-                   There’s a pathway that’s losing its battle with the forest leading toward the rear of the house.  </p>
+                   There’s a pathway that’s losing its battle with the forest leading toward the rear of the house.</p>
         </div>
-        <div class="mid">
-            <div class="choiceheader">
-                
-            </div>
-            
-        </div>
-        <div id="hidealso" class="choices">
-            <div class="fate">
-                <a href="knocked.html"><p>Do you knock on the front door?</p></a>
-            </div>
-            <div class="fate">
-                <a href="window.html"><p>Do you check the far window to see if anyone is inside?</p></a>
-            </div>
-            <div class="fate">
-                <a href="balcony.html"><p>You could look for something that would help you access the balcony.</p></a>
-            </div>
-            <div class="fate">
-                <a href="basement.html"><p>Try and squeeze through a basement window.</p></a>
-            </div>
-            <div class="fate">
-                <a href="shed.html"><p>Take the overgrown path that leads to the back of the house.</p></a>
-            </div>
-        </div>
-        <div class="info">
-
+        <div id="choices">
+            <div id="choice">Do you knock on the front door?</div>
+            <div id="choice">Do you check the far window to see if anyone is inside?</div>
+            <div id="choice">You could look for something that would help you access the balcony.</div>
+            <div id="choice">Try and squeeze through a basement window.</div>
+            <div id="choice">Take the overgrown path that leads to the back of the house.</div>
         </div>
     </div>
-    
-</body>
+    <button onclick="slideUp('box');">Hide</button>
+    <button onclick="slideDown('box');">Show</button>
 </html>
+</body>

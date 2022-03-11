@@ -1,17 +1,10 @@
-function hideAll() {
-    var x = document.getElementById("hideall");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
-function hideAlso() {
-    var x = document.getElementById("hidealso");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+function slideUp(el) {
+  var elem = document.getElementById(el);
+  elem.style.transition = "all 2s ease-in-out";
+  elem.style.height = "0px";
+}
+function slideDown(el) {
+  var elem = document.getElementById(el);
+  elem.style.transition = "all 2s ease-in-out";
+  elem.style.height = "80vh";
+}
