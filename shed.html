@@ -13,39 +13,25 @@
     <script src="main.js"></script>
     <title>Adventure</title>
 </head>
-<body>
-    <div>
-        <button class="hide" onclick="hideAll()">STORY</button>
-        <button class="hide" onclick="hideAlso()">CHOICES</button>
-    </div>
-    <div class="motherbox">
-        <div class="story">
+<body background="pics/shed.jpg">
+    <div id = "box">
+        <div id="story">
             <p>The forest canopy intersects with the roof far above you. It’s so thick it blocks out
-                 the moonlight. The features of the building are hard to discern. Your eyes struggle
-                  to adjust and eventually you see one small window adorned with crooked shutters and
-                   a narrow wooden door that is slightly askew. Peering closer you see it is open just
-                    a crack</p>
+                the moonlight. The features of the building are hard to discern. Your eyes struggle
+                 to adjust and eventually you see one small window adorned with crooked shutters and
+                  a narrow wooden door that is slightly askew. Peering closer you see it is open just
+                   a crack</p>
         </div>
-        <div class="mid">
-            <div class="choiceheader">
-                
-            </div>
-            
-        </div>
-        <div class="choices">
-            <div class="fate">
-                <a  href="grasscreature.html"><p>Something just raced through the grass only inches behind me. This is worth investigating.</p></a></div>
-            <div class="fate">
-                <a href=""><p>Now that you’re near the shed, you can see a huge open area in behind the house. You decide to take a closer look.</p></a></div>
-            <div class="fate">
-                <a href="insideshed.html"><p>You open the door to the shed and go inside</p></a></div>
-            <div class="fate">
-                <a href="dirtmound.html"><p>Oddly, there is an out of place fresh mound of dirt in the distance. Why not take a closer look?</p></a></div>
-        </div>
-        <div class="info">
-
+        <div id="choices">
+            <div id="choice"><a href=""></a></div>
+            <div id="choice"><a href=""></a></div>
+            <div id="choice"><a href=""></a></div>
+            <div id="choice"><a href=""></a></div>
+            <div id="choice"><a href=""></a></div>
         </div>
     </div>
-    
+    <button onclick="slideUp('box');">Hide</button>
+    <button onclick="slideDown('box');">Show</button>
+</html>
 </body>
 </html>

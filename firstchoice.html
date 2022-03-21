@@ -13,7 +13,7 @@
     <script src="main.js"></script>
     <title>Adventure</title>
 </head>
-<body>
+<body background="pics/entrance.jpg">
     <div id = "box">
         <div id="story">
             <p>It took a while but you made your way through the trees to the distant house. You now stand before a massive wooden door
@@ -22,14 +22,15 @@
                    There’s a pathway that’s losing its battle with the forest leading toward the rear of the house.</p>
         </div>
         <div id="choices">
-            <div id="choice">Do you knock on the front door?</div>
-            <div id="choice">Do you check the far window to see if anyone is inside?</div>
-            <div id="choice">You could look for something that would help you access the balcony.</div>
-            <div id="choice">Try and squeeze through a basement window.</div>
-            <div id="choice">Take the overgrown path that leads to the back of the house.</div>
+            <div id="choice"><a href="knocked.html">Do you knock on the front door?</a></div>
+            <div id="choice"><a href="window.html">Do you check the far window to see if anyone is inside?</a></div>
+            <div id="choice"><a href="balcony.html">You could look for something that would help you access the balcony.</a></div>
+            <div id="choice"><a href="basement.html">Try and squeeze through a basement window.</a></div>
+            <div id="choice"><a href="shed.html">Take the overgrown path that leads to the back of the house.</a></div>
         </div>
     </div>
     <button onclick="slideUp('box');">Hide</button>
     <button onclick="slideDown('box');">Show</button>
 </html>
 </body>
+</html>

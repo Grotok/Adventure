@@ -13,24 +13,23 @@
     <script src="main.js"></script>
     <title>Adventure</title>
 </head>
-<body>
-    <div>
-        <button class="hide" onclick="hideAll()">STORY</button>
-    </div>
-    <div class="motherbox">
-        <div class="story">
+<body background="pics/lumpy.jpg">
+    <div id = "box">
+        <div id="story">
             <p>One of the basement windows is wide open. It's small but you think you might be able to
                 wriggle through. You stick your head inside and look around. You can't see much except
                 cobwebs and dust. As you start working your arm through the window a loud creak alerts
                 you to the presence of something nearby. You panic and start to pull back causing you
                 to get jammed in the window frame. Looking up you see a lumpy shape easing toward you.
                 Screaming you pull back harder, but it's no use, you're trapped. The lumpy shape grabs
-                hold of you, the pain in your neck intensifies until your head is torn from your body.
-            </p>
+                hold of you, the pain in your neck intensifies until your head is torn from your body.</p>
         </div>
         <div>
-            <a class="enter" href="firstchoice.html"><p>Back</p></a>
-        </div>
-        <div class="mid">     
+            <button id="enter"><a href="firstchoice.html">BACK</a></button>
         </div>
     </div>
+    <button onclick="slideUp('box');">Hide</button>
+    <button onclick="slideDown('box');">Show</button>
+</html>
+</body>
+</html>
